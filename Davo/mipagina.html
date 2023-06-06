@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="ESTILO.CSS"/>
+    <title>JUAN CARDONA</title>
+</head>
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            <h1>JUAN  <span class="txtRojo">CARDONA</span></h1>
+            <nav id="nav">
+                <a href="#inicio" onclick="seleccionar()">inicio</a>
+                <a href="#nosotros" onclick="seleccionar()">SOBRE MI</a>
+                <a href="#servicios" onclick="seleccionar()">MIS SERVICIOS </a>
+                <a href="#equipo" onclick="seleccionar()">PLANES</a>
+                <a href="#contacto" onclick="seleccionar()">Contacto</a>
+            </nav>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>                
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-seccion">
+            <div class="info">
+                <h2>TRABAJA <span class="txtRojo">CONMIGO</span></h2>
+                <p>Trabajar conmigo sera lo mejor que te puede pasar!</p>
+                <a href="#nosotros" class="btn-mas">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </a>
+            </div>
+            <div class="opciones">
+                <div class="opcion">
+                    EL MEJOR
+                </div>
+                <div class="opcion">
+                    INTELIGENTE 
+                </div>
+                <div class="opcion">
+                    AMABLE 
+                </div>
+                <div class="opcion">
+                    SOCIAL
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+        <div class="fila">
+            <div class="col">
+                <img src="img/nosotros.png" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        01
+                    </div>
+                    <div class="info">
+                        <h2>SOBRE MI</h2>
+                    </div>
+                </div>
+                <p class="p-especial">Soy un joven estudiante de la media tecnica de desarrollo de sotfware.</p>
+                <p>me especializo mas que todo en diseño y desarrolo de diferentes paginas web. que quiere en un futuro dedicarse al diseño grafico y vivir de lo que me gusta.
+                    He realizado diferentes paginas web para uso institucional con ayuda de diferentes compañeros.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="fila-nosotros">
+            <div class="col1">
+                <span class="frase">
+                    <span class="txtRojo">TRABAJAMOS</span> DIFERENTE
+                </span>
+                <h2>TRABAJA<span class="txtRojo">CONMIGO</span> YA!</h2>
+            </div>
+            <div class="col2">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SERVICIOS -->
+    <section class="servicios" id="servicios">
+        <div class="contenido-seccion">
+            <div class="fila">
+                <div class="col">
+                    <div class="contenedor-titulo">
+                        <div class="numero">
+                            02
+                        </div>
+                        <div class="info">
+                            <h2>MIS SERVICIOS</h2>
+                        </div>
+                    </div>
+                    <p class="p-especial">Manejo diferentes servicios tales como:
+                        - Creacion pagina web 
+                        - maje de html, css, javascrip
+                        - creacion de diferentes logos y logotipos para tu trabajo 
+                    </p>
+                </div>
+                <div class="col">
+                    <img src="/57653103-la-planificación-concepto-con-cuatro-personajes-de-dibujos-animados-de-color-naranja-ilustración.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="info-servicios">
+            <table>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-house"></i>
+                        <h3><span class="txtRojo">Trabajo</span> en Casa</h3>
+                        <p>Trabajo desde casa para mayor comodida</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-a group of people"></i>
+                        <h3><span class="txtRojo">Grupo </span> de Trabajo</h3>
+                        <p>Tengo mi grupo de trabajo solido para que tu pagina sea la mejor</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-computer"></i>
+                        <h3><span class="txtRojo">El </span>Mejor Equipo</h3>
+                        <p>tengo lo mejor para realizar tu trabajo</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-clock"></i>
+                        <h3><span class="txtRojo">Trabajo</span> 24/7</h3>
+                        <p>Estare disponble 24/7 para aclarar tus dudas</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-coins"></i>
+                        <h3><span class="txtRojo"> Los</span>Mejores Precios</h3>
+                        <p>Manejo el mejor precio del mercado </p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-tablet"></i>
+                        <h3><span class="txtRojo">Planificacion</span></h3>
+                        <p>Planificar la manera en la cual vamos a llevar acabo el desarrolo</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <!-- SECCION EQUIPO -->
+    <section class="equipo" id="equipo">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    05
+                </div>
+                <div class="info">
+                    <h2>PLANES</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <div class="info">
+                        <h2>BASICO</h2>
+                        <p>Pagina web con html5,css y javascrip</p>
+                        <p>25.000</p>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/e2.png" alt="">
+                    <div class="info">
+                        <h2>PREMIUM</h2>
+                        <p>Pagina web,logo y logotipo</p>
+                        <p>95.0000</p>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    06
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>CONTACTO</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Ingrese Email">
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Ingrese Nombre">
+                </div>
+            </div>
+            <div class="mensaje">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Ingresa el Mensaje"></textarea>
+                <button>Enviar Mensaje</button>
+            </div>
+            <div class="fila-datos">
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>
+                INSTITUCION EDUCATIVA SANTA TERESA 
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-phone"></i>
+                    3146915355
+                </div>
+                <div class="col">
+                    <i class="fa-regular fa-clock"> 24/7</i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="info">
+            <p>2023 - <span class="txtRojo">JUAN CARDONA </span> </p>
+            <div class="redes">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
